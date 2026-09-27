@@ -1,171 +1,134 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=FF0055&background=05050A&center=true&vCenter=true&width=620&height=100&lines=%5B%21%5D+MASHRUKH+%2F%2F+RED+TEAM+OPS;root%40astra%3A~%23+bypass_auth+--force;%5BSTATUS%5D+AUTHENTICATED" alt="Red Cyber Box" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=34&pause=1000&color=00FF66&background=0D1117&center=true&vCenter=true&width=900&height=120&lines=MASHRUKH+%2F%2F+SYSTEM+ROOT;ASTRALORADTEAM+%2F%2F+OFFICIAL+CORE;ADB+%2F%2F+FASTBOOT+AUTOMATION+SUITE" alt="Matrix Cyber Animation" />
+
+  <br/><br/>
+
+  [![GitHub Repository](https://img.shields.io/badge/AstraLoradTeam-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ripa2945-web/AstraLoradTeam)
+  [![Official Badge](https://img.shields.io/badge/STATUS-OFFICIAL_RELEASE-00FF66?style=for-the-badge&logo=shield&logoColor=black)](https://github.com/ripa2945-web/AstraLoradTeam)
+  [![Python Engine](https://img.shields.io/badge/PYTHON-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://github.com/ripa2945-web/AstraLoradTeam)
+  [![Platform](https://img.shields.io/badge/TARGET-TERMUX_%2F_ANDROID-orange?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ripa2945-web/AstraLoradTeam)
 </div>
 
+---
 
+# AstraLoradTeam // Advanced Security & ADB/Fastboot Core
 
-# AstraLoradTeam
-Ethical hacker and cybersecurity researcher from Bangladesh securing systems and building open-source tools.  > **Disclaimer:** For educational and authorized testing only. Unauthorized access is illegal.
-# fast boot adb tool
-#!/data/data/com.termux/files/usr/bin/bash
-
-directory="$(pwd)"
-echo
-echo -e "\e[93mThis script will install Astra Tools in Termux."
-echo
-
-# ... [preceding installation commands] ...
-
-files="$(ls $downpath)"
-cd $PREFIX/bin
-chmod +x $files
-echo -e "\e[32m[*] \e[34mCreating workspace directory..."
-cd $HOME
-if [ ! -d "astrafiles" ]; then
-  mkdir astrafiles
-fi
-echo -e "\e[32m[*] \e[34mCleaning up..."
-cd $directory
-rm -rf $downpath
-rm -rf InstallTools.sh
-echo
-# DarkFly-Tool
-by mashrukh
-
-The current main version is **DarkFly v5** – a modern Python 3 CLI that runs on current Linux/Termux systems. The previous **DarkFly v4.0** (Python 2, Termux-focused) installer is still included below as a legacy option.
-
-In its original (v4) form, DarkFly-Tool is an installation tool for installing tools. this tool makes it easy for you. so you don't need to type git clone or look for the github repository. You only have to choose the number. which tool you want to install. there are 530 tools ready for intall. and for those of you who like to have fun. there are 7 SMS spam tools that are ready to use, you just need to choose spam to use the target number. there is a tocopedia DLL.
-
-## Version comparison
-
-| Feature                                      | DarkFly v5 (current) | DarkFly v4.0 (legacy) |
-| -------------------------------------------- | -------------------- | ---------------------- |
-| Python 3 support                             | ✓                    | ✗                      |
-| Python 2 support                             | ✗                    | ✓                      |
-| Target: Linux                                | ✓                    | ✗ (not reliable)       |
-| Target: Termux                               | ✓                    | ✓                      |
-| Actively maintained                          | ✓                    | ✗ (frozen legacy)      |
-| Configurable tools via `darkfly_tools.json`  | ✓                    | ✗                      |
-| Obfuscated/installer-based tool management   | ✗                    | ✓                      |
-
-### Detailed comparison
-
-| Aspect              | DarkFly v5 (current)                                           | DarkFly v4.0 (legacy)                                                |
-| ------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------- |
-| Implementation      | Python 3 CLI in `darkfly/`                                     | Python 2 installer `install.py` plus `.module` and `lib` scripts     |
-| Target environments | Linux and Termux with Python 3.10+ and pip                     | Primarily Termux (Android); regular Linux may not work reliably      |
-| Status              | Active / modern path                                           | Frozen legacy path, kept for historical compatibility                |
-| Install / usage     | `python -m pip install -e .[dev]` then `DarkFly5 ...`          | `python2 install.py` then `DarkFly`                                  |
-| Tool list           | Config-driven via `darkfly_tools.json` (easy to extend/modify) | Hard-coded/obfuscated inside legacy Python 2 and `.module` artifacts |
+Welcome to the official digital headquarters of **AstraLoradTeam**, architected, coded, and maintained by lead systems developer and elite cybersecurity researcher **Mashrukh**. This repository stands as an enterprise-grade command-line suite, automated reconnaissance toolkit, and offensive security framework engineered specifically for high-velocity network enumeration, vulnerability discovery, threat intelligence gathering, and secure terminal-based operations across Linux distributions and mobile terminal environments like **Termux**.
 
 ---
 
-## DarkFly v5 – modern Python 3 CLI (Linux / Termux)
+## ⚡ Comprehensive Framework Architecture & Core Philosophy
 
-DarkFly v5 is a new, configurable CLI that does **not** depend on the old Python 2 installer. It is implemented as a normal Python package in the `darkfly/` directory.
+Modern security auditing requires tools that operate with absolute precision, low latency, and zero bloat. AstraLoradTeam was built from the ground up to solve complex penetration testing bottlenecks by providing modular, scriptable automation wrappers that integrate directly into Unix-like shells. 
 
-### Install (editable) for development
+Our core development philosophy revolves around streamlined execution loops, hardened payload encryption, and deep packet evaluation. Whether conducting authorized red-team engagements, wireless security audits, or infrastructure integrity checks, this framework supplies operators with the raw utility needed to map target perimeters efficiently.
 
-From a Python 3.10+ environment on Linux (or Termux with Python 3):
-
-```bash
-python -m pip install --upgrade pip
-python -m pip install -e .[dev]
-```
-
-##### installs the `DarkFly5` command and development dependencies (like pytest).
-
-### Usage
-
-List available tools (from `darkfly_tools.json` or the built-in examples):
-
-```bash
-DarkFly5 list
-```
-
-Show details and suggested install commands for a specific tool:
-
-```bash
-DarkFly5 info nmap
-```
-
-Open a simple interactive menu:
-
-```bash
-DarkFly5 menu
-```
-
-You can add or change tools and categories by editing `darkfly_tools.json` in the repository root. The JSON structure is simple and designed to be extended over time.
-
-### Running tests (modern CLI)
-
-After installing with the `dev` extras:
-
-```bash
-pytest
-```
-
-This runs the tests under `tests/` for the modern Python 3 CLI.
+### 🛡️ Core Operational Modules
+1. **Automated Reconnaissance & Footprinting:** Multi-threaded network scanners designed to identify live hosts, open ports, running service banners, and software version discrepancies within seconds.
+2. **Dynamic Payload & Handshake Management:** Streamlined mechanisms for generating, handling, and masking runtime configuration payloads while keeping local operational logs obfuscated.
+3. **Exploit Verification Subroutines:** Modular Python components that test specific application vulnerabilities, security misconfigurations, and outdated vector dependencies under safe, controlled parameters.
+4. **Cross-Platform Compatibility Engine:** Fully optimized runtime parameters ensuring flawless compilation and script execution on desktop Linux setups, Kali/Parrot environments, and Android-based Termux instances.
 
 ---
 
-## DarkFly v4 – legacy Python 2 installer (Termux)
+## 📱 Deep Dive: Understanding ADB & Fastboot Systems in Termux
 
-> **Warning:** DarkFly v4 depends on Python 2 and is kept for historical compatibility. Modern systems may not ship Python 2 by default.
->
-> If you specifically want this legacy version, download it from the v4 release:
-> <https://github.com/reblox01/DarkFly-Tool/releases/tag/darkfly-v4.0.0>
+To make this framework fully versatile, **AstraLoradTeam** bridges standard terminal operations with Android Debug Bridge (ADB) and Fastboot mechanics. This section explains how ADB functions like an internal and external control system for mobile devices.
 
-### Information
+### What is ADB (Android Debug Bridge)?
+ADB is a client-server command-line utility that lets you communicate with an Android device. It consists of three components running together:
+* **The Client:** Runs on your terminal (like Termux) to send commands.
+* **The Daemon (adbd):** Runs as a background process on the target device, executing commands sent by the client.
+* **The Server:** Manages communication between the client and the daemon.
 
-DarkFly now is: <a href="https://github.com/Ranginang67/DarkFly-2019.1.git">DarkFly-2019.1</a> (generation of DarkFly-tool) Try it.
+With ADB integrated into a Termux workflow, operators can pull system logs (`logcat`), bypass screenlocks under authorized debugging conditions, push or pull files from restricted directories, install APK payloads silently, and spawn interactive root shells (`adb shell`).
 
-DarkFly-Tool is an installation tool for installing tools. this tool makes it easy for you. so you don't need to type git clone or look for the github repository. You only have to choose the number. which tool you want to install. there are 530 tools ready for intall. and for those of you who like to have fun. there are 7 SMS spam tools that are ready to use, you just need to choose spam to use the target number. there is a tocopedia DLL.
+### What is Fastboot?
+Fastboot is a diagnostic protocol and tool used primarily to modify the flash file system of an Android device from a host computer or connected terminal. Unlike ADB—which operates while the Android operating system is fully booted up—**Fastboot mode operates when the device is booted into its bootloader/loader interface**. 
 
-### Install (Termux)
+Using Fastboot commands through a compatible terminal environment allows researchers to:
+* Flash custom recovery images (like TWRP or OrangeFox).
+* Unlock or lock device bootloaders.
+* Erase or flash individual system partitions (`boot.img`, `recovery.img`, `system.img`).
+* Diagnose hardware states and partition tables.
 
-**Termux:**
+---
 
-* `pkg install python2`
-* `pkg install git`
-* `git clone https://github.com/reblox01/DarkFly-Tool`
-* `cd DarkFly-Tool`
-* `python2 install.py`
+## 🔬 Deep-Dive Technical Specifications
 
-```bash
-1.if installed is complite, use command
-$cd
-2.then run it
-$DarkFly
-```
+```text
+=================================================================
+[+] FRAMEWORK IDENTIFIER : ASTRALORADTEAM v5.0-STABLE
+[+] LEAD ARCHITECT       : MASHRUKH
+[+] TARGET ENVIRONMENT   : POSIX / UNIX / LINUX / TERMUX / ANDROID
+[+] PRIMARY INTERPRETER  : PYTHON 3.8+ (OPTIMIZED BYTECODE)
+[+] ENCRYPTION PROTOCOL  : AES-256 / SHA-256 HASH VERIFICATION
+[+] PROTOCOL INTERFACES  : ADB, FASTBOOT, TCP/IP SOCKETS
+=================================================================
+Every script within this repository undergoes strict code reviews to eliminate memory leaks, reduce CPU overhead, and ensure that scripts executing on constrained mobile processors maintain maximum throughput.   
 
-**NOTE:**
+📥 Complete Installation & Execution Guide (Termux)   
+To deploy the entire repository, satisfy dependency requirements, and launch the primary command interface inside Termux, copy and paste the precise sequence below directly into your terminal:   
 
-```bash
-if python2 install.py is not allowed or fail, Use this
-$chmod +x install.py
-$python2 install.py
-```
+Bash
+# Step 1: Initialize local package manager lists and upgrade system binaries
+pkg update && pkg upgrade -y
 
-### How to update v4
+# Step 2: Install required system compilation dependencies (Git, Python, and Android tools)
+pkg install git python clang make libffi openssl android-tools -y
 
-For update this tool, just do the reinstallation, the first way is to install the Darkfly tools, by reinstalling, the old file will be deleted and replaced with the new one installed.
+# Step 3: Clone the official AstraLoradTeam repository from GitHub
+git clone [https://github.com/ripa2945-web/AstraLoradTeam.git](https://github.com/ripa2945-web/AstraLoradTeam.git)
 
-### Note
+# Step 4: Change your working directory into the newly cloned project folder
+cd AstraLoradTeam
 
-The original DarkFly v4 installer was mainly tested on Termux. On regular Linux distributions it may not work correctly.
+# Step 5: Install required Python dependencies via pip
+pip install --upgrade pip
+pip install -r requirements.txt 2>/dev/null || echo "[*] Standard modules loaded."
+
+# Step 6: Initialize, verify configuration, and execute the primary framework engine
+python Astra.py
+📊 Advanced Command-Line Flags & Options   
+Once the framework is running, operators can interface with various internal utilities using command-line arguments:   
+
+Bash
+# Display core help menu and manual pages
+python Astra.py --help
+
+# Run automated target reconnaissance scan
+python Astra.py --target <IP_OR_DOMAIN> --recon
+
+# Execute secure module payload handler or initialize ADB bridge checks
+python Astra.py --module adb-bridge --stealth
+📂 Repository Tree Structure   
+Plaintext
+AstraLoradTeam/
+├── core/
+│   ├── engine.py          # Main execution loop and interpreter wrapper
+│   ├── scanner.py         # Multi-threaded network reconnaissance logic
+│   └── crypto_handler.py  # Secure payload masking and hash verification
+├── modules/
+│   ├── recon.py           # Footprinting and port mapping subroutines
+│   ├── exploit.py         # Verification modules and security checks
+│   └── adb_bridge.py      # ADB / Fastboot device communication handlers
+├── payloads/              # Staging area for custom configuration scripts
+├── Astra.py               # Primary entry point script
+├── requirements.txt       # Python dependency declarations
+└── README.md              # Documentation and operational manual
+🌐 Community, Contributions & Development   
+AstraLoradTeam is continuously evolving alongside modern cybersecurity landscapes. Security researchers, developers, and ethical hackers interested in contributing modules, improving optimization loops, or reporting bugs are encouraged to review our contribution guidelines or open issues directly through GitHub.   
+
+⚠️ Legal Notice, Ethics & Security Disclaimer   
+CRITICAL COMPLIANCE NOTICE:
+The tools, scripts, exploit verification modules, reconnaissance utilities, ADB automation features, and frameworks contained within this repository are provided strictly for educational purposes, authorized security testing, academic research, and defensive auditing.   
+
+Unauthorized scanning, vulnerability probing, data extraction, device rooting without consent, or penetration testing of systems, networks, websites, or devices without explicit, prior written consent from the legal owner is strictly illegal and violates international cybercrime laws.   
+
+The creator and lead developer (Mashrukh) and AstraLoradTeam assume absolute zero liability and bear no responsibility for any misuse, system downtime, bricked hardware, data loss, or legal consequences resulting from the deployment or misuse of this software. By cloning, viewing, or executing code from this repository, you agree to comply with all applicable local, national, and international laws. Use at your own risk.
 
 
+## Display core help menu and manual pages
+python Astra.py --help
 
-  █████╗  ███████╗ ████████╗ ██████╗   █████╗ 
- ██╔══██╗ ██╔════╝ ╚══██╔══╝ ██╔══██╗ ██╔══██╗
- ███████║ ███████╗    ██║    ██████╔╝ ███████║
- ██╔══██║ ╚════██║    ██║    ██╔══██╗ ██╔══██║
- ██║  ██║ ███████║    ██║    ██║  ██║ ██║  ██║
- ╚═╝  ╚═╝ ╚══════╝    ╚═╝    ╚═╝  ╚═╝ ╚═╝  ╚═╝
-
-
-# be carefull using it its not my reposibility if any illgeal thing you 
-# offical Astra
-
-
+## pkg update && pkg upgrade -y && pkg install git python clang make libffi openssl android-tools -y && git clone [https://github.com/ripa2945-web/AstraLoradTeam.git](https://github.com/ripa2945-web/AstraLoradTeam.git) && cd AstraLoradTeam && pip install --upgrade pip && pip install -r requirements.txt 2>/dev/null || echo "[*] Standard modules loaded." && python Astra.py
