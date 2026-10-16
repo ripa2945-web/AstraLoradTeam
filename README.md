@@ -1,3 +1,4 @@
+# Written by Mashrukh - Founder of ASTRABD (ASTRA Bangladesh) Dhaka - HTB 335301
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=34&pause=1000&color=00FF66&background=0D1117&center=true&vCenter=true&width=900&height=120&lines=MASHRUKH+%2F%2F+SYSTEM+ROOT;ASTRALORADTEAM+%2F%2F+OFFICIAL+CORE;ADB+%2F%2F+FASTBOOT+AUTOMATION+SUITE" alt="Matrix Cyber Animation" />
 
