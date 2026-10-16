@@ -10,7 +10,17 @@
 </div>
 
 ---
+# ASTRABD - ASTRA Bangladesh
 
+Purple Team from Dhaka, BD.
+
+We build offensive + defensive tools for Termux, Kali, ESP32, CYD.
+
+Team: astrabd | Mashrukh | Arayan | Tanju
+HTB Team: 335301
+Focus: RF, WiFi, Game Security
+
+Tools are for educational & authorized testing only.
 # AstraLoradTeam // Advanced Security & ADB/Fastboot Core
 
 Welcome to the official digital headquarters of **AstraLoradTeam**, architected, coded, and maintained by lead systems developer and elite cybersecurity researcher **Mashrukh**. This repository stands as an enterprise-grade command-line suite, automated reconnaissance toolkit, and offensive security framework engineered specifically for high-velocity network enumeration, vulnerability discovery, threat intelligence gathering, and secure terminal-based operations across Linux distributions and mobile terminal environments like **Termux**.
