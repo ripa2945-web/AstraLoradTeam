@@ -1,4 +1,28 @@
-# Written by Mashrukh - Founder of ASTRABD (ASTRA Bangladesh) Dhaka - HTB 335301
+# Written by Mashrukh - Founder of ASTRABD (ASTRA Bangladesh) Dhaka - HTB 335301# Mashrukh | Cyber Defender from Bangladesh 🇧🇩
+14 y/o | Blue Team + Red Team | Started at 10
+
+> Learning to break to learn how to defend. Goal: Protect Bangladesh.
+
+### 🛡️ Focus
+- Web Security (OWASP Top 10)
+- Mobile Security (Android)
+- SOC & Threat Detection
+- Cloud Security (AWS/Azure)
+
+### 🧰 Arsenal
+`Python` `Bash` `Burp Suite` `Nmap` `Wireshark` `Wazuh` `MobSF` `Linux`
+
+### 📊 4 Years Journey
+- 347+ Labs Completed (TryHackMe / PortSwigger)
+- CTF Player | Bug Hunter (Responsible Disclosure)
+- Building tools to defend BD users from phishing
+
+### 📫 Connect
+## 
+- BGD e-GOV CIRT: Responsible disclosure contributor
+- Motto: **Learn • Practice • Certify • Stay Ethical**
+
+### 📌 Pinned Projects Below 👇
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=34&pause=1000&color=00FF66&background=0D1117&center=true&vCenter=true&width=900&height=120&lines=MASHRUKH+%2F%2F+SYSTEM+ROOT;ASTRALORADTEAM+%2F%2F+OFFICIAL+CORE;ADB+%2F%2F+FASTBOOT+AUTOMATION+SUITE" alt="Matrix Cyber Animation" />
 
